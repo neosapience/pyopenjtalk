@@ -64,7 +64,8 @@ ext_modules = cythonize(
         extra_compile_args=[],
         extra_link_args=[],
         language="c++"
-    )]
+    )],
+    compiler_directives={'language_level' : "3"}
 )
 
 # Adapted from https://github.com/pytorch/pytorch
