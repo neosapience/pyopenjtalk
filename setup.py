@@ -63,7 +63,9 @@ ext_modules = cythonize(
         libraries=["openjtalk"],
         extra_compile_args=[],
         extra_link_args=[],
-        language="c++")],
+        language="c++",
+        language_level="3"
+    )],
 )
 
 # Adapted from https://github.com/pytorch/pytorch
