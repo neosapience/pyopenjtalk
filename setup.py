@@ -15,7 +15,7 @@ from os.path import join
 version = '0.0.2'
 
 openjtalk_install_prefix = os.environ.get(
-    "OPEN_JTALK_INSTALL_PREFIX", "/usr/local/")
+    "OPEN_JTALK_INSTALL_PREFIX", "/tmp/usr/local/")
 
 openjtalk_include_top = join(openjtalk_install_prefix, "include")
 openjtalk_library_path = join(openjtalk_install_prefix, "lib")
